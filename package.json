@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-kitchensink",
+  "version": "0.0.0-development",
+  "description": "Zero-config ESLint config.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/keplersj/eslint-config-kitchensink",
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "lint": "eslint src/**/*",
+    "prelint": "tsc",
+    "prerelease": "tsc"
+  },
+  "files": ["dist"],
+  "devDependencies": {
+    "@commitlint/cli": "^6.1.0",
+    "@commitlint/config-conventional": "^6.1.0",
+    "@commitlint/travis-cli": "^6.1.0",
+    "@types/node": "^9.4.6",
+    "eslint": "^4.17.0",
+    "husky": "^0.14.3",
+    "prettier": "^1.10.2",
+    "semantic-release": "^12.4.1",
+    "typescript": "^2.7.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "prettier": ">= 1"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "6.0.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-unicorn": "4.0.2"
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
+  "eslintConfig": {
+    "extends": "./dist/index.js"
+  }
+}
