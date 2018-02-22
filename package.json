@@ -17,7 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "6.1.2",
     "@commitlint/config-conventional": "6.1.2",
-    "@commitlint/travis-cli": "6.1.0",
+    "@commitlint/travis-cli": "6.1.2",
     "@types/node": "9.4.6",
     "eslint": "4.18.1",
     "husky": "0.14.3",
