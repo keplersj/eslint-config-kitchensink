@@ -35,7 +35,7 @@
     "eslint-plugin-node": "6.0.1",
     "eslint-plugin-prettier": "2.7.0",
     "eslint-plugin-promise": "3.8.0",
-    "eslint-plugin-unicorn": "4.0.3"
+    "eslint-plugin-unicorn": "14.0.1"
   },
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]
