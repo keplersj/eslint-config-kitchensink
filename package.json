@@ -20,7 +20,7 @@
     "@commitlint/travis-cli": "6.2.0",
     "@types/node": "9.6.55",
     "eslint": "4.19.1",
-    "husky": "0.14.3",
+    "husky": "4.2.1",
     "prettier": "1.19.1",
     "semantic-release": "12.4.1",
     "typescript": "2.9.2"
