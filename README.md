@@ -1,3 +1,13 @@
+# Deprecated
+
+This package was an experiment in creating a dynamic ESLint configuration that automatically configures itself based on your project configuration. While this package was never finished to accomplish this goal, it was an experiment I took on in 2018 and am archiving to preserve code history.
+
+The idea of this project lives on in [eslint-config-starstuff](https://github.com/keplersj/eslint-config-starstuff)'s [auto prefix](https://github.com/keplersj/eslint-config-starstuff#auto).
+
+The readme has been preserved below:
+
+---
+
 # eslint-config-kitchensink
 
 Lints for everything but the kitchensink! Just another zero-config ESLint shared config attempt.
